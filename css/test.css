@@ -1,6 +1,12 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
 
+#mainNav {
+  min-height: 56px;
+  background-color: white;
+  /*background-image: linear-gradient(to bottom, #FFF50F, #FFFEF1);*/
+}
+
 .hm-gradient {
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
@@ -160,7 +166,9 @@
 .userprofile.social {
 	background: url(http://www.bootdey.com/img/Content/flores-amarillas-wallpaper.jpeg) no-repeat top center;
 	background-size: 100%;
-	padding: 50px 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+
 	margin: 0
 }
 .userprofile.social .username {
@@ -429,6 +437,7 @@
 
 /* Add padding to containers */
 .containerform{
+  padding-top: 20px;
   padding: 16px;
   width: 650px;
 }
