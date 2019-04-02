@@ -426,6 +426,19 @@
     align-content: space-around;
     
 }
+
+#wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button {
+  height: 55px;
+  width: 220px;
+}
     
 /****************************************************************************************************************************/
 /*                                                        Form																 /
