@@ -1,7 +1,7 @@
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
-  /*background-image: linear-gradient(to bottom, #7bdef2, white);*/
+  background-color: white;
+  /*background-image: linear-gradient(to bottom, #FFF50F, #FFFEF1);*/
 }
 
 #mainNav .navbar-toggler {
@@ -11,12 +11,19 @@
   border: 1px solid #64a19d;
 }
 
+.home-container {
+    padding-top: 2.5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
+  /*background-color: #FFFEF1;*/
   background-image: url("../img/blur-crowd-indoors-950902.jpeg");
   background-position: center;
   background-repeat: no-repeat;
