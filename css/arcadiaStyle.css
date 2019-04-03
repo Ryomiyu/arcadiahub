@@ -1,3 +1,9 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+/* Makes text all the same, but there is a problem when you click into the text fields for the sign in or register.
+   I think it conflicts with the existing colour changes in this CSS file */
+
 /****************************************************************************************************/
 /*                                          Navigation Bar                                          */
 /****************************************************************************************************/
