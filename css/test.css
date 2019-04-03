@@ -1,11 +1,49 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
 
+/****************************************************************************************************/
+/*                                          Navigation Bar                                          */
+/****************************************************************************************************/
+
+
 #mainNav {
-  min-height: 56px;
-  background-color: white;
-  /*background-image: linear-gradient(to bottom, #FFF50F, #FFFEF1);*/
+      min-height: 56px;
+      background-color: white;
+      /*background-image: linear-gradient(to bottom, #FFF50F, #FFFEF1);*/
 }
+
+
+#mainNav .container .search-container{
+    float: right;
+}
+
+#mainNav .container .search-container button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#mainNav .container .search-container button:hover {
+    background: #ccc;
+  
+}
+
+#mainNav input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+
+
+/****************************************************************************************************/
+/*                                          End of Navigation Bar                                   */
+/****************************************************************************************************/
+
 
 .container {
     background: white;
