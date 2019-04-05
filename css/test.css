@@ -211,8 +211,7 @@
 	background-size: 100%;
     padding-top: 10%;
     padding-bottom: 5%;
-
-	margin: 0
+	margin: 0;
 }
 .userprofile.social .username {
 	color: #ffffff
@@ -580,4 +579,21 @@ a {
 
 /****************************************************************************************************/
 /*                    Styles for Terms_and_Privacy.html (END)                                         */
+/****************************************************************************************************/
+
+/****************************************************************************************************/
+/*                    Styles for Project.html (START)                                         */
+/****************************************************************************************************/
+.projectpic {
+	background: url(https://images.pexels.com/photos/1742370/pexels-photo-1742370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat top center;
+	background-size: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+	margin: 0;
+}
+.descriptionheading{
+    padding-bottom: 3px;
+}
+/****************************************************************************************************/
+/*                    Styles for Project.html (END)                                         */
 /****************************************************************************************************/
