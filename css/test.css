@@ -213,6 +213,22 @@
     padding-bottom: 5%;
 	margin: 0;
 }
+
+/* vv For Investor_Profile.html vv*/
+.investorprofile.social {
+	background: url(https://thecapitalclub.com.au/wp-content/uploads/2018/03/Share-Market-Data-Board-16.9-696x391.jpg) no-repeat top center;
+	background-size: 100%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+	margin: 0;
+}
+
+.investorusername {
+    color: white;
+}
+/* ^^ For Investor_Profile.html ^^*/
+
+
 .userprofile.social .username {
 	color: #ffffff
 }
