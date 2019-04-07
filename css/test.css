@@ -207,7 +207,7 @@
 	margin-left: 5px;
 }
 .userprofile.social {
-	background: url(http://www.bootdey.com/img/Content/flores-amarillas-wallpaper.jpeg) no-repeat top center;
+	background: url(https://i.imgur.com/The9wlr.jpg) no-repeat top center;
 	background-size: 100%;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -216,7 +216,7 @@
 
 /* vv For Investor_Profile.html vv*/
 .investorprofile.social {
-	background: url(https://thecapitalclub.com.au/wp-content/uploads/2018/03/Share-Market-Data-Board-16.9-696x391.jpg) no-repeat top center;
+	background: url(https://i.imgur.com/XVoidhS.jpg) no-repeat top center;
 	background-size: 100%;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -549,7 +549,7 @@ hr {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #4CAF50;
+  background-color: #F4DD08;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
