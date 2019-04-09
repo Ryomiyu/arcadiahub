@@ -83,10 +83,35 @@
                     	    <div class="col-md-10">
                     	        <p><a href="Profile.html"><strong>Ana Analytics</strong></a></p>
                     	        <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    	        <p>
+                    	        
                     	            <a class="float-right btn btn-outline-primary ml-2">  <i class="fa fa-reply"></i> Contact</a>
-                    	            <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
-                    	       </p>
+                                    
+                                <!-- Button trigger modal -->
+                                <button type="button" class="float-right btn text-white btn-danger" data-toggle="modal" data-target="#exampleModal">
+                                  <i class="fa fa-heart"></i> Like
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Match</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        You Matched with this person!
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">View Profile</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div> 
+                    	       
                     	    </div>
             	        </div>
             	    </div>
